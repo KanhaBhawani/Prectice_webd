@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-color: green;
+}
+
+li{
+    list-style: none;
+}
+
+/* --------------------- */
+.upper-container{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #345B63;
+    padding-top: 1px;
+
+}
+.nav-elements{
+    float: left;
+    margin: 10px;
+}
+/* ********************************* */
+.middle-container{
+    background-color: rgb(232 232 232);
+    padding-bottom: 150px;
+}
+.dashboard{
+    margin: 0;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.dashboard-h5{
+    margin-bottom: 8px;
+    padding-left: 11%;
+}
+.dashboard-h2{
+    margin-top: 0px;
+    padding-left: 11%;
+}
+.dashboard-containers{
+    width: 78%;
+    margin: 0 auto;
+    padding: 1px 0;
+}
+.get-certificalte{
+    padding-top: 100px;
+}
+.grid3{
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 30px 30px; */
+    display: grid;
+    gap: 34px;
+}
+.grid2{
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: 30px 30px; */
+    display: grid;
+    gap: 82px;
+}
+.certi-element{
+    height: 200px;
+    width: 22rem;
+    display: inline-block;
+    margin: 15px;
+}
+.your-skills{
+    padding-top: 100px;
+}
+.your-skill-element{
+    height: 250px;
+    width: 33.5rem;
+    display: inline-block;
+    margin: 15px;
+}
+.skills-for-prectice{
+    padding-top: 100px;
+}
+.skill-av-list{
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: 30px 30px; */
+    display: grid;
+    gap: 34px;
+    text-align: left;
+}
+.skill-list-elememt{
+    margin-left: 15px;
+}
+
+.left-h3{
+    text-align: left;
+    /* padding: 1px; */
+}
+.center{
+    text-align: center;
+    position: relative;
+}
+
+.margin-left{
+    margin-left: 0;
+}
+.margin-right{
+    margin-right: 0;
+}
+/* --------------------- */
+.lower-container{
+    text-align: center;
+    height: 30px
+}
+.lower-con-element{
+    display: inline-block;
+}
+.inline-display{
+    display: inline-block;
+}
+.white{
+    background-color: #fff;
+}
